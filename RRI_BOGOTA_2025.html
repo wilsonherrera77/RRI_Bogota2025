@@ -12,6 +12,7 @@
     <style>
         body {
             font-family: 'Inter', sans-serif;
+            color: #333333;
         }
         .chart-container {
             position: relative;
@@ -53,18 +54,19 @@
         }
     </style>
 </head>
-<body class="bg-gray-100 text-gray-800">
+<body class="bg-[#f7f7f7]">
 
-    <header class="bg-[#00A0B0] text-white p-8 text-center shadow-lg">
-        <h1 class="text-4xl md:text-5xl font-black tracking-tight">Plan Estratégico de la Coalición RRI</h1>
-        <p class="mt-2 text-xl">Resultados del Taller para América Latina | Bogotá, 2025</p>
+    <header class="bg-white p-8 text-center shadow-lg">
+        <img src="https://raw.githubusercontent.com/wilsonherrera77/MACI/main/RRI%2020.png?raw=true" alt="Logo de RRI" class="h-20 w-auto mx-auto mb-6">
+        <h1 class="text-4xl md:text-5xl font-black tracking-tight text-[#004990]">Plan Estratégico de la Coalición RRI</h1>
+        <p class="mt-2 text-xl text-gray-600">Resultados del Taller para América Latina | Bogotá, 2025</p>
     </header>
 
     <main class="container mx-auto p-4 md:p-8">
 
         <section id="diagnostico" class="mb-16">
             <div class="text-center mb-8">
-                <h2 class="text-3xl font-bold text-[#CC333F]">1. Diagnóstico: Punto de Partida</h2>
+                <h2 class="text-3xl font-bold text-[#004990]">1. Diagnóstico: Punto de Partida</h2>
                 <p class="max-w-3xl mx-auto mt-2 text-lg">Para trazar el futuro, primero entendimos nuestros desafíos actuales. Identificamos cuatro áreas clave que requieren nuestra atención inmediata para fortalecer la coalición y maximizar nuestro impacto.</p>
             </div>
             <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
@@ -93,15 +95,15 @@
 
         <section id="oportunidades" class="mb-16">
             <div class="text-center mb-12">
-                <h2 class="text-3xl font-bold text-[#EB6841]">2. Oportunidades Estratégicas de Financiamiento</h2>
+                <h2 class="text-3xl font-bold text-[#84BD00]">2. Oportunidades Estratégicas de Financiamiento</h2>
                 <p class="max-w-3xl mx-auto mt-2 text-lg">Con un diagnóstico claro, definimos tres avenidas estratégicas para diversificar y potenciar nuestra captación de recursos, alineando nuestras fortalezas con las tendencias globales.</p>
             </div>
 
             <div class="bg-white p-8 rounded-lg shadow-xl">
                 <div class="grid grid-cols-1 lg:grid-cols-3 gap-8">
                     
-                    <div class="border-b-4 lg:border-b-0 lg:border-r-4 border-[#EDC951] p-6 rounded-lg">
-                        <h3 class="text-2xl font-bold mb-4 text-[#6A4A3C]">Gobiernos y Filantropía</h3>
+                    <div class="border-b-4 lg:border-b-0 lg:border-r-4 border-gray-200 p-6 rounded-lg">
+                        <h3 class="text-2xl font-bold mb-4 text-[#333333]">Gobiernos y Filantropía</h3>
                         <p class="mb-4">Debemos fortalecer alianzas y trabajar como un bloque regional unificado.</p>
                         <ul class="space-y-2 list-disc list-inside">
                             <li>Acercamiento a gobiernos de <strong>Noruega, UK y Dinamarca</strong>.</li>
@@ -110,8 +112,8 @@
                         </ul>
                     </div>
 
-                    <div class="border-b-4 lg:border-b-0 lg:border-r-4 border-[#EB6841] p-6 rounded-lg">
-                        <h3 class="text-2xl font-bold mb-4 text-[#6A4A3C]">Pilares Temáticos Innovadores</h3>
+                    <div class="border-b-4 lg:border-b-0 lg:border-r-4 border-gray-200 p-6 rounded-lg">
+                        <h3 class="text-2xl font-bold mb-4 text-[#333333]">Pilares Temáticos Innovadores</h3>
                         <p class="mb-4">Posicionarnos en la vanguardia con temas de alto impacto y relevancia global.</p>
                         <div class="space-y-3">
                             <div class="bg-gray-100 p-3 rounded"><strong>Soberanía del Dato (Visión CARE)</strong></div>
@@ -121,7 +123,7 @@
                     </div>
 
                     <div class="p-6 rounded-lg">
-                        <h3 class="text-2xl font-bold mb-4 text-[#6A4A3C]">Aplicación y Organización</h3>
+                        <h3 class="text-2xl font-bold mb-4 text-[#333333]">Aplicación y Organización</h3>
                         <p class="mb-4">Reestructurar nuestra forma de operar para ser más eficientes y atractivos para los donantes.</p>
                         <div class="chart-container h-64 md:h-72">
                             <canvas id="organizacionChart"></canvas>
@@ -133,24 +135,24 @@
 
         <section id="impacto-directo" class="mb-16">
             <div class="text-center mb-12">
-                <h2 class="text-3xl font-bold text-[#00A0B0]">3. Estrategias para un Impacto Directo en las Comunidades</h2>
+                <h2 class="text-3xl font-bold text-[#004990]">3. Estrategias para un Impacto Directo en las Comunidades</h2>
                 <p class="max-w-3xl mx-auto mt-2 text-lg">El objetivo final es que los recursos lleguen a quienes más lo necesitan. Para ello, proponemos un cambio de paradigma centrado en la confianza, la flexibilidad y el empoderamiento local.</p>
             </div>
             <div class="bg-white p-8 rounded-lg shadow-xl relative">
-                <div class="flowchart-connector bg-[#EDC951]"></div>
+                <div class="flowchart-connector bg-gray-200"></div>
                 <div class="space-y-12">
-                    <div class="flowchart-item border-[#00A0B0]">
-                        <div class="flowchart-item-dot absolute left-[-0.7rem] top-1/2 -translate-y-1/2 w-5 h-5 rounded-full bg-white border-4 border-[#00A0B0]"></div>
+                    <div class="flowchart-item border-[#004990]">
+                        <div class="flowchart-item-dot absolute left-[-0.7rem] top-1/2 -translate-y-1/2 w-5 h-5 rounded-full bg-white border-4 border-[#004990]"></div>
                         <h3 class="text-2xl font-bold mb-2">Fortalecer Capacidades Locales</h3>
                         <p>El punto central es generar autonomía en la formulación de proyectos y gestión financiera directamente en las comunidades, con acompañamiento técnico real de los donantes.</p>
                     </div>
-                    <div class="flowchart-item border-[#EB6841]">
-                         <div class="flowchart-item-dot absolute left-[-0.7rem] top-1/2 -translate-y-1/2 w-5 h-5 rounded-full bg-white border-4 border-[#EB6841]"></div>
+                    <div class="flowchart-item border-[#84BD00]">
+                         <div class="flowchart-item-dot absolute left-[-0.7rem] top-1/2 -translate-y-1/2 w-5 h-5 rounded-full bg-white border-4 border-[#84BD00]"></div>
                         <h3 class="text-2xl font-bold mb-2">Modelos de Financiación Flexibles</h3>
                         <p>Implementar un sistema de "financiamiento en cascada" y adaptar los requisitos administrativos a las realidades territoriales, eliminando barreras burocráticas.</p>
                     </div>
-                    <div class="flowchart-item border-[#CC333F]">
-                         <div class="flowchart-item-dot absolute left-[-0.7rem] top-1/2 -translate-y-1/2 w-5 h-5 rounded-full bg-white border-4 border-[#CC333F]"></div>
+                    <div class="flowchart-item border-[#333333]">
+                         <div class="flowchart-item-dot absolute left-[-0.7rem] top-1/2 -translate-y-1/2 w-5 h-5 rounded-full bg-white border-4 border-[#333333]"></div>
                         <h3 class="text-2xl font-bold mb-2">Fomentar Autonomía y Comunicación</h3>
                         <p>Mejorar la comunicación interna para que las bases conozcan las oportunidades y respetar los planes de vida locales por encima de la "proyectitis" impuesta por donantes.</p>
                     </div>
@@ -160,7 +162,7 @@
         
         <section id="acuerdos" class="mb-16">
             <div class="text-center mb-8">
-                <h2 class="text-3xl font-bold text-[#6A4A3C]">4. Nuestros Acuerdos Clave</h2>
+                <h2 class="text-3xl font-bold text-[#333333]">4. Nuestros Acuerdos Clave</h2>
                 <p class="max-w-3xl mx-auto mt-2 text-lg">Del diálogo surgieron seis compromisos fundamentales que guiarán nuestras acciones como coalición en el futuro inmediato.</p>
             </div>
             <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
@@ -175,28 +177,28 @@
 
         <section id="proximos-pasos">
             <div class="text-center mb-8">
-                <h2 class="text-3xl font-bold text-[#00A0B0]">5. Próximos Pasos: La Ruta a Seguir</h2>
+                <h2 class="text-3xl font-bold text-[#84BD00]">5. Próximos Pasos: La Ruta a Seguir</h2>
                 <p class="max-w-3xl mx-auto mt-2 text-lg">Estos son los pasos concretos y las acciones inmediatas que hemos definido para materializar nuestra visión estratégica.</p>
             </div>
              <div class="bg-white p-8 rounded-lg shadow-xl">
                 <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 text-center">
                     <div class="flex flex-col items-center">
-                        <div class="bg-[#00A0B0] text-white w-20 h-20 rounded-full flex items-center justify-center text-3xl font-bold mb-3">1</div>
+                        <div class="bg-[#004990] text-white w-20 h-20 rounded-full flex items-center justify-center text-3xl font-bold mb-3">1</div>
                         <h4 class="font-bold text-lg">Plenaria sobre Brasil</h4>
                         <p>Definir un nicho estratégico de entrada.</p>
                     </div>
                      <div class="flex flex-col items-center">
-                        <div class="bg-[#EB6841] text-white w-20 h-20 rounded-full flex items-center justify-center text-3xl font-bold mb-3">2</div>
+                        <div class="bg-[#84BD00] text-white w-20 h-20 rounded-full flex items-center justify-center text-3xl font-bold mb-3">2</div>
                         <h4 class="font-bold text-lg">Crear Banco de Datos</h4>
                         <p>Consolidar información para fortalecer propuestas.</p>
                     </div>
                      <div class="flex flex-col items-center">
-                        <div class="bg-[#EDC951] text-gray-800 w-20 h-20 rounded-full flex items-center justify-center text-3xl font-bold mb-3">3</div>
+                        <div class="bg-[#333333] text-white w-20 h-20 rounded-full flex items-center justify-center text-3xl font-bold mb-3">3</div>
                         <h4 class="font-bold text-lg">Implementar Financiamiento en Cascada</h4>
                         <p>Poner en marcha el modelo de patrocinio fiscal.</p>
                     </div>
                      <div class="flex flex-col items-center">
-                        <div class="bg-[#CC333F] text-white w-20 h-20 rounded-full flex items-center justify-center text-3xl font-bold mb-3">4</div>
+                        <div class="bg-gray-300 text-gray-800 w-20 h-20 rounded-full flex items-center justify-center text-3xl font-bold mb-3">4</div>
                         <h4 class="font-bold text-lg">Generar Capacidad Local</h4>
                         <p>Continuar el empoderamiento para asumir roles directos.</p>
                     </div>
@@ -206,7 +208,7 @@
 
     </main>
 
-    <footer class="mt-16 bg-[#6A4A3C] text-white text-center p-4">
+    <footer class="mt-16 bg-[#333333] text-white text-center p-4">
         <p>&copy; 2025 Coalición RRI para América Latina. Todos los derechos reservados.</p>
     </footer>
 
@@ -251,8 +253,8 @@
                 datasets: [{
                     label: 'Nivel de Prioridad Estratégica',
                     data: [90, 75, 85, 80],
-                    backgroundColor: ['#00A0B0', '#EB6841', '#EDC951', '#CC333F'],
-                    borderColor: ['#00818f', '#c95430', '#cba942', '#a92a34'],
+                    backgroundColor: ['#004990', '#84BD00', '#6c757d', '#adb5bd'],
+                    borderColor: ['#004990', '#84BD00', '#6c757d', '#adb5bd'],
                     borderWidth: 1
                 }]
             },
